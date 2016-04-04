@@ -17,8 +17,6 @@
 
 .box ul {
     overflow: hidden;
-    /*margin-top: -1px;
-        margin-left: -1px;*/
     position: relative;
     left: 0;
     top: 0;
@@ -80,7 +78,9 @@
     margin: 50px auto;
     text-align: center;
 }
-
+.handle >label,.handle input[type="button"],.handle input[type="checkbox"] {
+    cursor: pointer;
+}
 #car{
     transition: left 1s,right 1s,top 1s,bottom 1s,-webkit-transform 1s;
     -webkit-transition: left 1s,right 1s,top 1s,bottom 1s,-webkit-transform 1s; /* Safari */
